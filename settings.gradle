@@ -1,0 +1,5 @@
+include ':app', ':capt-toolkit', ':capt-processor', ':capt-annotation'
+rootProject.name='CAPT-DEMO'
+project(':capt-processor').projectDir = new File(settingsDir,"capt/capt-processor")
+project(':capt-toolkit').projectDir = new File(settingsDir,"capt/capt-toolkit")
+project(':capt-annotation').projectDir = new File(settingsDir,"capt/capt-annotation")
